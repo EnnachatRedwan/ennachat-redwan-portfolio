@@ -22,10 +22,7 @@ const Education = (props) => {
             <div className="card">
               <div className="card-body">
                 <h1 className="text-center">
-                  <i
-                    className="fa-solid fa-graduation-cap"
-                    style={{ color: "purple" }}
-                  ></i>
+                  <i class="fa-solid fa-file-certificate"></i>
                 </h1>
               </div>
             </div>
