@@ -5,7 +5,7 @@ const NavBar = () => {
     <nav
       className="navbar navbar-expand-lg navbar-light bg-white py-3"
       style={{
-        borderBottom: "2px solid #d4d4f9",
+        // borderBottom: "2px solid #d4d4f9",
         boxShadow: "0 0 30px #d4d4f9",
       }}
     >
