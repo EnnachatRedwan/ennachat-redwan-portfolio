@@ -1,0 +1,15 @@
+.numer-holder {
+  position: relative;
+}
+
+.numer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  word-wrap: break-word;
+  overflow: hidden;
+  color: #6871d714;
+  text-shadow:  0 0 5px #6871d72d;
+}

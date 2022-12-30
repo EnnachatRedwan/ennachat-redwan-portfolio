@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar";
 import Header from "./components/header";
-import Desc from "./components/description";
+import Education from "./components/Education";
+// import Desc from "./components/description";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./main.css";
@@ -11,9 +12,10 @@ function App() {
     <>
       <NavBar />
       <main>
-        <Header></Header>
+        <Header />
         {/* <Desc></Desc> */}
-        <AboutMe></AboutMe>
+        <AboutMe />
+        <Education />
       </main>
       <footer></footer>
     </>
