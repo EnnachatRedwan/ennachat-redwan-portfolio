@@ -84,7 +84,7 @@ const Education = (props) => {
                 <p className="card-text text-secondary h6">
                   "Licence professionnelle" in Morocco
                 </p>
-                <p className="text-secondary">software development option</p>
+                <p className="text-secondary">Database Administrator option</p>
                 <h3 className="h5 text-secondary">Obtained in 2022</h3>
               </div>
             </div>
