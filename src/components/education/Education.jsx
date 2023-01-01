@@ -46,7 +46,7 @@ const Education = (props) => {
               key={i}
               title={diploma.title}
               subtitle={diploma.subtitle}
-              text={diploma.title}
+              text={diploma.text}
               footer={diploma.footer}
             />
           ))}

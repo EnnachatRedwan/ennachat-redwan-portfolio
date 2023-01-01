@@ -1,0 +1,14 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+/*
+#6871d7
+
+*/
