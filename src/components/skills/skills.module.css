@@ -34,8 +34,8 @@
   color: #6871d7;
   background-color: transparent;
 }
-.list li:first-child{
-    font-size: 1.8rem;
+.techTitle{
+    font-weight: bolder;
 }
 
 @keyframes scroll {

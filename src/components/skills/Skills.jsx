@@ -667,22 +667,35 @@ const Skills = (props) => {
             "list-group list-group-flush text-center my-5 " + classes["list"]
           }
         >
-          <li class="list-group-item">Technologies</li>
-          <li class="list-group-item">Python</li>
-          <li class="list-group-item">Java</li>
-          <li class="list-group-item">JavaScript</li>
-          <li class="list-group-item">Php</li>
-          <li class="list-group-item">Node Js</li>
-          <li class="list-group-item">Flutter</li>
-          <li class="list-group-item">Dart</li>
-          <li class="list-group-item">C#</li>
-          <li class="list-group-item">HTML</li>
-          <li class="list-group-item">CSS</li>
-          <li class="list-group-item">React JS</li>
-          <li class="list-group-item">MySQL</li>
-          <li class="list-group-item">SQL Server</li>
-          <li class="list-group-item">ORACLE</li>
-          <li class="list-group-item">Neo4J</li>
+          <li class="list-group-item">
+            <span className={classes["techTitle"]}>
+              {" "}
+              Programming Languages:{" "}
+            </span>{" "}
+            Python / Java / JavaScript / Php / Dart / C#
+          </li>
+          <li class="list-group-item">
+            <span className={classes["techTitle"]}>Frameworks:</span> Flutter /
+            ASP.NET
+          </li>
+
+          <li class="list-group-item">
+            <span className={classes["techTitle"]}>Libraries:</span> React JS
+          </li>
+
+          <li class="list-group-item">
+            <span className={classes["techTitle"]}>Runtimes:</span> Node Js
+          </li>
+
+          <li class="list-group-item">
+            <span className={classes["techTitle"]}>Markuping Languages:</span>{" "}
+            HTML / CSS / XML
+          </li>
+
+          <li class="list-group-item">
+            <span className={classes["techTitle"]}>Databases:</span> MySQL / SQL
+            Server / ORACLE / Neo4J
+          </li>
         </ul>
       </div>
     </Section>
