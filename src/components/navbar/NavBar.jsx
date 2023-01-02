@@ -7,6 +7,10 @@ const NavBar = () => {
       style={{
         // borderBottom: "2px solid #d4d4f9",
         boxShadow: "0 0 30px #d4d4f9",
+        position: "sticky",
+        left: "0",
+        top: "0",
+        zIndex:"100000"
       }}
     >
       <div className="container">
@@ -30,7 +34,7 @@ const NavBar = () => {
         >
           <ul className="navbar-nav">
             <li className="nav-item text-center">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link" aria-current="page" href="#">
                 Home
               </a>
             </li>

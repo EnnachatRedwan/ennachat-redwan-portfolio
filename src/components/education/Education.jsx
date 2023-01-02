@@ -48,6 +48,18 @@ const Education = (props) => {
             />
           ))}
         </div>
+        <div className="row justify-content-center">
+          <div className="col-md-5">
+            <p className="text-center text-secondary">
+              Flutter / Dart the Complete Guide UDEMI{" "}
+              <a href="https://www.udemy.com/certificate/UC-e75388b1-2d1b-43a0-aae2-9f0fdb2af59a/"
+              target='_blank'>
+                {" "}
+                Certification
+              </a>
+            </p>
+          </div>
+        </div>
       </div>
     </Section>
   );
