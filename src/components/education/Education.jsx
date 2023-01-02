@@ -31,10 +31,7 @@ const Education = (props) => {
         <SectionHeader
           title={
             <div className="display-4">
-              <i
-                className="fa-solid fa-graduation-cap"
-                style={{ color: "#6871d7" }}
-              ></i>
+              <i className="fa-solid fa-graduation-cap"></i>
             </div>
           }
           style={{ color: "#6871d7" }}

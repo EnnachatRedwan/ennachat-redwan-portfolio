@@ -9,15 +9,11 @@ const Skills = (props) => {
   return (
     <Section style={{ background: "#f7f7ff" }}>
       <div className="container">
-        <SectionHeader
-          title="Skills"
-          subtitle="My skills"
-          style={{ color: "#6871d7" }}
-        ></SectionHeader>
+        <SectionHeader title="Skills" subtitle="My skills" />
         <div
           className={
             // classes["skills-card-holder"] + " " + classes["snaps-inline"]
-            classes["slider"]
+            classes["slider"] + " my-4"
           }
         >
           <div className={classes["slider-track"]}>

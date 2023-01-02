@@ -1,5 +1,5 @@
-import Section from '../../helpers/Section';
-import SectionHeader from '../../helpers/SectionHeader';
+import Section from "../../helpers/Section";
+import SectionHeader from "../../helpers/SectionHeader";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,11 +8,7 @@ const AboutMe = (props) => {
   return (
     <Section style={{ background: "#f7f7ff" }}>
       <div className="container">
-        <SectionHeader
-          title="About Me"
-          style={{ color: "#6871d7" }}
-          subtitle="Learn more about me"
-        />
+        <SectionHeader title="About Me" subtitle="Learn more about me" />
         <div className="d-flex justify-content-center text-center">
           <div className="p-4" style={{ color: "#6871d7", width: "900px" }}>
             As a junior software engineer, I am passionate about using
