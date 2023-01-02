@@ -1,4 +1,4 @@
-import Section from "../../helpers/section";
+import Section from "../../helpers/Section";
 import SectionHeader from "../../helpers/SectionHeader";
 import EducationCard from "../../ui/EducationCard";
 
