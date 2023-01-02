@@ -1,4 +1,48 @@
-.skills-card-holder {
+/* .skills-card-holder {
   display: flex;
-  align-items: center;
+  grid-auto-flow: column;
+  grid-auto-columns: 23%;
+  overscroll-behavior-inline: contain;
+  overflow-x: auto;
+  width: calc(150px * 15);
+  animation: scroll 40s linear infinite;
+}
+
+.snaps-inline {
+  scroll-snap-type: inline mandatory;
+}
+
+.snaps-inline > * {
+  scroll-snap-align: start;
+} */
+
+.slider {
+  height: 150px;
+  display: grid;
+  overflow: hidden;
+  position: relative;
+  place-items: center;
+}
+
+.slider-track {
+  display: flex;
+  width: calc(150px * 30);
+  animation: scroll 30s infinite linear;
+}
+
+.list li {
+  color: #6871d7;
+  background-color: transparent;
+}
+.list li:first-child{
+    font-size: 1.8rem;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-150px * 15));
+  }
 }
