@@ -1,3 +1,5 @@
+import { TypeAnimation } from "react-type-animation";
+
 import classes from "./header.module.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -7,15 +9,30 @@ const Header = () => {
     <header className="container p-3">
       <div className="row align-items-center justify-content-center">
         <div className="col col-md-5 text-center text-md-start py-5 ">
-          <h1 className=" display-6" style={{height:'90px'}}>
-            I am <strong id="myName" style={{ color: "#6871d7" }}>Redwan ENNACHAT</strong>
+          <h1 className=" display-6" style={{ height: "90px" }}>
+            I am{" "}
+            <strong style={{ color: "#6871d7" }}>
+              <TypeAnimation
+                sequence={[
+                  "Redwan ENNACHAT", // Types 'One'
+                  2000, // Waits 1s
+                  "a Software Engineer", // Deletes 'One' and types 'Two'
+                  2000, // Waits 2s
+                  "a Full-stack Developer", // Types 'Three' without deleting 'Two'
+                  2000,
+                ]}
+                wrapper="span"
+                cursor={true}
+                repeat={Infinity}
+              />
+            </strong>
           </h1>
-          <h2 className="lead">I am a Software Engineer</h2>
+          <h2 className="lead">Download my resume</h2>
           <a
             className="btn btn-lg my-3 text-white"
             style={{ background: "#6871d7" }}
           >
-            About Me
+            Download
           </a>
         </div>
         <div
