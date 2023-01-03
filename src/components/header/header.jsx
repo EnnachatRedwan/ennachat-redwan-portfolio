@@ -20,7 +20,7 @@ const Header = () => {
         </div>
         <div
           className={
-            "col col-md-6 d-none d-md-block text-center "
+            "col-md-6  d-md-block text-center "
             // +classes["numer-holder"]
           }
         >
