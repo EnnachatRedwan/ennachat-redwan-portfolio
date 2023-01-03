@@ -8,7 +8,7 @@ const Header = () => {
       <div className="row align-items-center justify-content-center">
         <div className="col col-md-5 text-center text-md-start py-5 ">
           <h1 className=" display-6" style={{height:'90px'}}>
-            I am <strong id="myName" style={{ color: "#6871d7" }}></strong>
+            I am <strong id="myName" style={{ color: "#6871d7" }}>Redwan ENNACHAT</strong>
           </h1>
           <h2 className="lead">I am a Software Engineer</h2>
           <a
