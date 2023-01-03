@@ -16,13 +16,18 @@
     <div id="root"></div>
 
     <script type="module" src="/src/main.jsx"></script>
-    
+
     <script>
       var i = 0;
       var txt = "Redwan ENNACHAT";
       var speed = 100;
+      var isUpdated = false;
 
       function typeWriter() {
+        if (!isUpdated) {
+          document.getElementById("myName").innerHTML = "";
+          isUpdated = true;
+        }
         if (i < txt.length) {
           document.getElementById("myName").innerHTML += txt.charAt(i);
           i++;
