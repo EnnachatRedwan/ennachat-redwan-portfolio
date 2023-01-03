@@ -22,29 +22,24 @@
       var txt = "Redwan ENNACHAT";
       var speed = 100;
       var isUpdated = false;
+      var name = document.getElementById("myName");
 
       document.querySelector("body").onload = function typeWriter() {
-        function start() {
-          if (!isUpdated) {
-            document.getElementById("myName").innerHTML = "";
-            isUpdated = true;
-          }
-          if (i < txt.length) {
-            document.getElementById("myName").innerHTML += txt.charAt(i);
-            i++;
-            setTimeout(typeWriter, speed);
-          } else {
-            setTimeout(() => {
-              i = 0;
-              document.getElementById("myName").innerHTML = "";
-              setTimeout(typeWriter, speed);
-            }, 2000);
-          }
+        alert(name);
+        if (!isUpdated) {
+          name.innerHTML = "";
+          isUpdated = true;
         }
-        try {
-          start();
-        } catch (err) {
-          start();
+        if (i < txt.length) {
+          name.innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+        } else {
+          setTimeout(() => {
+            i = 0;
+            name.innerHTML = "";
+            setTimeout(typeWriter, speed);
+          }, 2000);
         }
       };
     </script>
