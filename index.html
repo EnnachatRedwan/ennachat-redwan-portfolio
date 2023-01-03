@@ -12,7 +12,7 @@
 
     <title>EN-Portfolio</title>
   </head>
-  <body onload="typeWriter()">
+  <body>
     <div id="root"></div>
 
     <script type="module" src="/src/main.jsx"></script>
@@ -23,24 +23,30 @@
       var speed = 100;
       var isUpdated = false;
 
-      function typeWriter() {
-        alert('hello');
-        if (!isUpdated) {
-          document.getElementById("myName").innerHTML = "";
-          isUpdated = true;
-        }
-        if (i < txt.length) {
-          document.getElementById("myName").innerHTML += txt.charAt(i);
-          i++;
-          setTimeout(typeWriter, speed);
-        } else {
-          setTimeout(() => {
-            i = 0;
+      document.querySelector("body").onload = function typeWriter() {
+        function start() {
+          if (!isUpdated) {
             document.getElementById("myName").innerHTML = "";
+            isUpdated = true;
+          }
+          if (i < txt.length) {
+            document.getElementById("myName").innerHTML += txt.charAt(i);
+            i++;
             setTimeout(typeWriter, speed);
-          }, 2000);
+          } else {
+            setTimeout(() => {
+              i = 0;
+              document.getElementById("myName").innerHTML = "";
+              setTimeout(typeWriter, speed);
+            }, 2000);
+          }
         }
-      }
+        try {
+          start();
+        } catch (err) {
+          start();
+        }
+      };
     </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
