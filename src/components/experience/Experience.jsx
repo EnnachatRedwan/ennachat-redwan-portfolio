@@ -26,16 +26,17 @@ const Experience = (props) => {
       <div className="container">
         <SectionHeader title="Experience" subtitle="My experience" />
         <div className="row justify-content-around my-4">
-          {_experience.map((e,i) => (
-            <div className="col-md-4" key={i}>
+          <div className="col col-md-9">
+            {_experience.map((e, i) => (
               <ExperienceCard
+                key={i}
                 title={e.title}
                 subtitle={e.subtitle}
                 text={e.text}
                 footer={e.footer}
               />
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </Section>
