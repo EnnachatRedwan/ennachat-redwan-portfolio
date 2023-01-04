@@ -1,5 +1,5 @@
 .navbar {
-  position: fixed;
+  position: sticky;
   left: 0;
   top: 0;
   width: 100%;
@@ -9,7 +9,7 @@
   align-items: center;
   z-index: 10000;
   background-color: #fff;
-  padding: 10px;
+  padding: 20px;
   box-shadow: 0 0 30px #d4d4f9;
 }
 
@@ -49,11 +49,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #6871d7;
+  background-color: #f5f6fc;
   list-style: none;
   transition: 0.5s ease-in;
   transform: translateX(100%);
-  overscroll-behavior: none;
 }
 
 .navbar ul label {
@@ -64,12 +63,9 @@
   padding: 10px;
 }
 
-.navbar ul label i{
-    color: #fff;
-}
 
 .navbar ul li {
-  color: #fff;
+  color: #6871d7;
   text-decoration: none;
   font-size: 2rem;
   width: 100%;
@@ -79,5 +75,5 @@
 }
 
 .navbar ul li:hover {
-  background-color: #616ac8;
+  background-color: #d4daff;
 }
