@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Header = () => {
   return (
-    <header className="container p-3">
+    <header className="container pb-3 pt-5">
       <div className="row align-items-center justify-content-center">
         <div className="col col-md-5 text-center text-md-start py-5 ">
           <h1 className=" display-6" style={{ height: "90px" }}>
