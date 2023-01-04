@@ -55,30 +55,24 @@ const NavBar = () => {
     //   </div>
     // </nav>
 
-    <nav className="container">
-      <div className="row">
-        <div className="col-6">
-          <div className={classes["navbar"]}>
-            <h1>
-              EN <span>PORTFOLIO</span>
-            </h1>
-            <input type="checkbox" id="nav" />
-            <label htmlFor="nav">
-              <i class="fa-solid fa-bars"></i>
-            </label>
+    <nav className={classes["navbar"]}>
+      <h1>
+        EN <span>PORTFOLIO</span>
+      </h1>
+      <input type="checkbox" id="nav" />
+      <label htmlFor="nav">
+        <i class="fa-solid fa-bars"></i>
+      </label>
 
-            <ul>
-              <label htmlFor="nav">
-                <i class="fa-solid fa-xmark"></i>
-              </label>
-              <li>Home</li>
-              <li>Home</li>
-              <li>Home</li>
-              <li>Home</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      <ul>
+        <label htmlFor="nav">
+          <i class="fa-solid fa-xmark"></i>
+        </label>
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+        <li>Home</li>
+      </ul>
     </nav>
   );
 };
