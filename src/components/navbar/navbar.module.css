@@ -53,6 +53,7 @@
   list-style: none;
   transition: 0.5s ease-in;
   transform: translateX(100%);
+  overscroll-behavior: contain;
 }
 
 .navbar ul label {
