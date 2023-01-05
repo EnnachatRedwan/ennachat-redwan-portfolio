@@ -1,6 +1,5 @@
 import { TypeAnimation } from "react-type-animation";
 
-import classes from "./header.module.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 

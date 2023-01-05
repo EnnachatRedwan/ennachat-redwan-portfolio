@@ -3,6 +3,7 @@ import Header from "./components/header/header";
 import Education from "./components/education/Education";
 import Skills from "./components/skills/Skills";
 import Experience from "./components/experience/Experience";
+import Projects from "./components/projects/Projects";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./main.css";
@@ -18,6 +19,7 @@ function App() {
         <Education />
         <Skills />
         <Experience />
+        <Projects />
       </main>
       <footer></footer>
     </>

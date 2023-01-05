@@ -122,6 +122,11 @@ const NavBar = () => {
             Experience
           </a>
         </li>
+        <li>
+          <a href="#projects" onClick={check}>
+            Projects
+          </a>
+        </li>
       </ul>
     </label>
   );
