@@ -6,7 +6,7 @@ const EducationCard = (props) => {
       <div
         className="card"
         style={{
-          backgroundImage: " linear-gradient(150deg,#e9e9ff,#e9e9ff33)",
+          backgroundImage: " linear-gradient(150deg,#e9e9ff,#e9e9ff11)",
           color: "#6871d7",
           boxShadow: "0 0 15px #6871d733",
           border: "2px #6871d733 solid",

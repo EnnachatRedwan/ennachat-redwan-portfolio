@@ -55,25 +55,53 @@ const NavBar = () => {
     //   </div>
     // </nav>
 
-    <nav className={classes["navbar"]}>
-      <h1>
-        EN <span>PORTFOLIO</span>
-      </h1>
-      <input type="checkbox" id="nav" />
-      <label htmlFor="nav">
-        <i class="fa-solid fa-bars"></i>
-      </label>
+    // <nav className={classes["contain"]}>
+    //   <div className={classes["navbar"] + " container"}>
+    //     <h1>
+    //       EN <span>PORTFOLIO</span>
+    //     </h1>
+    //     <input type="checkbox" id="nav" />
+    //     <label htmlFor="nav">
+    //       <i className="fa-solid fa-bars"></i>
+    //     </label>
 
+    //     <ul>
+    //       <label htmlFor="nav">
+    //         <i className="fa-solid fa-xmark"></i>
+    //       </label>
+    //       <li>
+    //         <label htmlFor="nav">Home</label>
+    //       </li>
+    //       <li>
+    //         <label htmlFor="nav">Home</label>
+    //       </li>
+    //       <li>
+    //         <label htmlFor="nav">Home</label>
+    //       </li>
+    //       <li>
+    //         <label htmlFor="nav">Home</label>
+    //       </li>
+    //     </ul>
+    //   </div>
+    // </nav>
+
+    <label className={classes["lab"]}>
+      <input type="checkbox"></input>
+      <span className={classes["menu"]}>
+        <span className={classes["hamburger"]}></span>
+      </span>
       <ul>
-        <label htmlFor="nav">
-          <i class="fa-solid fa-xmark"></i>
-        </label>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Work</a>
+        </li>
       </ul>
-    </nav>
+    </label>
   );
 };
 
