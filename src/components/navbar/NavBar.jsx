@@ -97,7 +97,7 @@ const NavBar = () => {
     // </nav>
 
     <label className={classes["lab"]}>
-      <input type="checkbox" checked={isChecked}></input>
+      <input type="checkbox" checked={isChecked} onChange={() => {}}></input>
       <span className={classes["menu"]} onClick={toggleCheck}>
         <span className={classes["hamburger"]}></span>
       </span>
