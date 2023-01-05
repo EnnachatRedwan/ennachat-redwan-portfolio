@@ -1,8 +1,19 @@
+import { useState } from "react";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import classes from "./navbar.module.css";
 
 const NavBar = () => {
+  const [isChecked, setIsChecked] = useState(false);
+
+  const check = () => {
+    setIsChecked(false);
+  };
+
+  const toggleCheck = () => {
+    setIsChecked((prev) => !prev);
+  };
   return (
     // <nav
     //   className="navbar navbar-expand-lg navbar-light bg-white py-3"
@@ -86,19 +97,30 @@ const NavBar = () => {
     // </nav>
 
     <label className={classes["lab"]}>
-      <input type="checkbox"></input>
-      <span className={classes["menu"]}>
+      <input type="checkbox" checked={isChecked}></input>
+      <span className={classes["menu"]} onClick={toggleCheck}>
         <span className={classes["hamburger"]}></span>
       </span>
       <ul>
         <li>
-          <a href="#">Home</a>
+          <a href="#header" onClick={check}>
+            Home
+          </a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="#about" onClick={check}>
+            About Me
+          </a>
         </li>
         <li>
-          <a href="#">Work</a>
+          <a href="#education" onClick={check}>
+            Education
+          </a>
+        </li>
+        <li>
+          <a href="#experience" onClick={check}>
+            Experience
+          </a>
         </li>
       </ul>
     </label>

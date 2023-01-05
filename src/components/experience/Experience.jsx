@@ -22,7 +22,7 @@ const Experience = (props) => {
   ];
 
   return (
-    <Section>
+    <Section id="experience">
       <div className="container">
         <SectionHeader title="Experience" subtitle="My experience" />
         <div className="row justify-content-around my-4">

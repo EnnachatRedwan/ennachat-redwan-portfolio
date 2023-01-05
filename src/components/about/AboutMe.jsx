@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const AboutMe = (props) => {
   return (
-    <Section style={{ background: "#f7f7ff" }}>
+    <Section style={{ background: "#f7f7ff" }} id="about">
       <div className="container">
         <SectionHeader title="About Me" subtitle="Learn more about me" />
         <div className="d-flex justify-content-center text-center">

@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Skills = (props) => {
   return (
-    <Section style={{ background: "#f7f7ff" }}>
+    <Section style={{ background: "#f7f7ff" }} id="skills">
       <div className="container">
         <SectionHeader title="Skills" subtitle="My skills" />
         <div

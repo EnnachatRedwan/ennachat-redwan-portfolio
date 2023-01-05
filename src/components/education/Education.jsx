@@ -26,7 +26,7 @@ const Education = (props) => {
     },
   ];
   return (
-    <Section>
+    <Section id='education'>
       <div className="container">
         <SectionHeader
           title={
