@@ -165,8 +165,10 @@
 }
 .lab input:checked + .menu + ul {
   opacity: 1;
+  display: block;
 }
 .lab ul {
+  display: none;
   z-index: 200;
   position: absolute;
   top: 50%;
