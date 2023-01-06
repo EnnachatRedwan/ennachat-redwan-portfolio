@@ -1,0 +1,15 @@
+.footer{
+color: #fff;
+background-color: #000;
+}
+
+.footer *{
+    color: #fff;
+}
+.content{
+
+}
+
+.content a i{
+font-size: 3rem;
+}

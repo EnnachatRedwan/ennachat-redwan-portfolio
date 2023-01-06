@@ -8,6 +8,7 @@ import Projects from "./components/projects/Projects";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./main.css";
 import AboutMe from "./components/about/AboutMe";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         <Experience />
         <Projects />
       </main>
-      <footer></footer>
+      <Footer />
     </>
   );
 }
