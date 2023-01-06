@@ -67,6 +67,7 @@
   border-radius: 20px;
   margin-inline: 10px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .card-container:hover img {
