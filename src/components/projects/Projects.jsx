@@ -7,6 +7,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Projects = (props) => {
   const _projects = [
     { title: "Full projects manager", img: "/prj1.jpg", code: "https://github.com/EnnachatRedwan/pfe_project_tracking_ennachat_redwan_flutter", demo: "" },
+    { title: "EN-Shop website", img: "/prj2.jpg", code: "https://github.com/EnnachatRedwan/EN-SHOP", demo: "https://ennachat-shop.netlify.app/" },
+    
   ];
 
   return (

@@ -5,6 +5,7 @@
   border-radius: 30px;
   overflow: hidden;
   box-shadow: 0 0 20px #0005;
+  border: 3px solid #6871d788;
 }
 
 .card-container * {
@@ -72,7 +73,7 @@
 
 .card-container:hover img {
   scale: 1.1;
-  filter: grayscale(0%);
+  filter: grayscale(0%) blur(2px);
 }
 
 .card-container:hover h1 {
