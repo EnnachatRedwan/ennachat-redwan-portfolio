@@ -9,7 +9,7 @@ const ProjectCard = (props) => {
       <div className={classes["controls"]}>
         {props.code && (
           <a href={props.code} target="_blank" className={classes["card-btn"]}>
-            <i class="fa-solid fa-code"></i>
+            <i className="fa-solid fa-code"></i>
           </a>
         )}
         {props.demo && (

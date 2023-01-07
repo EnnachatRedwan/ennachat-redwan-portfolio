@@ -1,5 +1,5 @@
 import { TypeAnimation } from "react-type-animation";
-
+import Resume from "../../resume/EnnachatRedwanCVe.pdf";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -28,6 +28,8 @@ const Header = () => {
           </h1>
           <h2 className="lead">Download my resume</h2>
           <a
+            href={Resume}
+            download="resume"
             className="btn btn-lg my-3 text-white"
             style={{ background: "#6871d7" }}
           >

@@ -44,9 +44,8 @@ const Projects = (props) => {
         <SectionHeader title="Projects" subtitle="My Projects" />
         <div className="row py-5">
           {_projects.map((prj, i) => (
-            <div className="col-md-6 col-lg-4">
+            <div className="col-md-6 col-lg-4" key={i}>
               <ProjectCard
-                key={i}
                 title={prj.title}
                 img={prj.img}
                 code={prj.code}
@@ -56,9 +55,12 @@ const Projects = (props) => {
           ))}
         </div>
         <h2 className="text-center lead">
-          <strong style={{color:"#6871d7"}}>Note:</strong> you find the rest of my
-          projects in{" "}
-          <a href="https://github.com/EnnachatRedwan?tab=repositories" style={{textDecoration:"none"}}>
+          <strong style={{ color: "#6871d7" }}>Note:</strong> you find the rest
+          of my projects in{" "}
+          <a
+            href="https://github.com/EnnachatRedwan?tab=repositories"
+            style={{ textDecoration: "none" }}
+          >
             my github
           </a>
         </h2>
