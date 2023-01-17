@@ -1,5 +1,5 @@
 import { TypeAnimation } from "react-type-animation";
-import Resume from "../../resume/EnnachatRedwanCVe.pdf";
+import Resume from "../../resume/EnnachatRedwanCV.pdf";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
