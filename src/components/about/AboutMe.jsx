@@ -11,16 +11,18 @@ const AboutMe = (props) => {
         <SectionHeader title="About Me" subtitle="Learn more about me" />
         <div className="d-flex justify-content-center text-center">
           <div className="p-4" style={{ color: "#6871d7", width: "900px" }}>
-            As a fresher software developer, I am passionate about using
-            technology to solve real-world problems and create innovative
-            solutions. I have a strong foundation in computer science concepts
-            and experience with a range of programming languages and Frameworks.
-            I have completed a range of academic degrees, diplomas and
-            certificates, and have worked on several projects and internships
-            during my studies. In my current role as a fresher software developer.
-            In my career, I hope to continue learning and growing as a software
-            developer , and to work on projects that have a positive impact on
-            people's lives.
+            I am an ambitious and driven software engineer with a strong
+            foundation in computer science and a passion for creating innovative
+            solutions. As a recent graduate with a degree in Computer Science, I
+            have gained hands-on experience in various programming languages
+            such as C++, Java, Python, and JavaScript. I have a strong
+            understanding of software development methodologies and have
+            experience working on diverse projects such as web development,
+            mobile development, and software testing. I am a quick learner, a
+            team player, and have the ability to work under pressure to meet
+            deadlines. I am excited to bring my skills and enthusiasm to a
+            dynamic and forward-thinking company where I can continue to grow as
+            an engineer and make a meaningful impact.
           </div>
         </div>
       </div>
