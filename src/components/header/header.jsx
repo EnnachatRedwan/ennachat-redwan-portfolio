@@ -15,14 +15,10 @@ const Header = () => {
                 sequence={[
                   "Redwan ENNACHAT", // Types 'One'
                   2000, // Waits 1s
-<<<<<<< HEAD
                   "a Software Engineer", // Deletes 'One' and types 'Two'
-                  2000,
-=======
-                  "a Software Developer", // Deletes 'One' and types 'Two'
                   2000, // Waits 2s
-                 
->>>>>>> e8f615c4a18fb4b801612f07c3a6395796d8974a
+                  "a Full-stack Developer", // Types 'Three' without deleting 'Two'
+                  2000,
                 ]}
                 wrapper="span"
                 cursor={true}
