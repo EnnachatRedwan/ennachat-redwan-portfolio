@@ -8,16 +8,23 @@ const Experience = (props) => {
   const _experience = [
     {
       title: "Ministry of Justice and Liberties",
-      subtitle: "DotNet Full-Stack Developer",
-      text: "Completed tasks: creating website template using HTML,CSS and JavaScript. Creating a web application from archiving documents using asp.net, RDLC and SQLServer",
-      footer: "From 17/03/2021 to 13/04/2021 at Rabat city",
+      subtitle: "SOFTWARE DEVELOPER INTERNSHIP",
+      text: "Redesigned web template of the department that made users happier so which increased productivity.",
+      footer: "FEB 2021 - AUG 2021",
+    },
+    {
+      title:
+        "LOCAL FREELANCING",
+      subtitle: "SOFTWARE DEVELOPER",
+      text: "Created, designed, and hosted websites for restaurants and coffee shops which eliminates the need for paper menus, reduced the cost of purchasing paper menus and increased convenience.",
+      footer: "JUL 2021 -JAN 2022",
     },
     {
       title:
         "Directorate of Studies, Cooperation and Modernization - Ministry of Justice",
-      subtitle: "Mobile Full-Stack Developer",
-      text: "Completed tasks: creating a Cross Platform projects tracking application that can runs on IOS, Android and Windows using the following technologies. Front-end Mobile: Flutter/Dart Back-end: Node.js Express.js JWT Database: MySQL",
-      footer: "From 04/07/2022 to 02/09/2022 at Rabat",
+      subtitle: "SOFTWARE DEVELOPER INTERNSHIP",
+      text: "Created cross-platform app (works on Mobile devices, desktop and the web) for managing the projects and employees which made managing the directorate’s projects more organized and easer.",
+      footer: "MAY 2022 – NOV 2022",
     },
   ];
 
