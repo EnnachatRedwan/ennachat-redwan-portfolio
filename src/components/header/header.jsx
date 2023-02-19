@@ -1,5 +1,5 @@
 import { TypeAnimation } from "react-type-animation";
-import Resume from "../../resume/EnnachatRedwanCV.pdf";
+import Resume from "../../resume/softwareDeveloper.pdf";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -15,7 +15,7 @@ const Header = () => {
                 sequence={[
                   "Redwan ENNACHAT", // Types 'One'
                   2000, // Waits 1s
-                  "a Software Engineer", // Deletes 'One' and types 'Two'
+                  "a Software Developer", // Deletes 'One' and types 'Two'
                   2000, // Waits 2s
                 ]}
                 wrapper="span"
