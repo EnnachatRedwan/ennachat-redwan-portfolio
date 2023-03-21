@@ -26,7 +26,7 @@ const Education = (props) => {
     },
   ];
   return (
-    <Section id='education'>
+    <Section id="education">
       <div className="container">
         <SectionHeader
           title={
@@ -48,16 +48,31 @@ const Education = (props) => {
             />
           ))}
         </div>
+        <h1 className="text-center pb-4 display-6">Certifications</h1>
         <div className="row justify-content-center">
           <div className="col-md-5">
-            <p className="text-center text-secondary">
-              Flutter / Dart the Complete Guide UDEMI{" "}
-              <a href="https://www.udemy.com/certificate/UC-e75388b1-2d1b-43a0-aae2-9f0fdb2af59a/"
-              target='_blank'>
-                {" "}
-                Certification
-              </a>
-            </p>
+            <a
+              href="https://www.udemy.com/certificate/UC-e75388b1-2d1b-43a0-aae2-9f0fdb2af59a/"
+              target="_blank"
+            >
+              <img
+                className="img-fluid"
+                src="https://udemy-certificate.s3.amazonaws.com/image/UC-e75388b1-2d1b-43a0-aae2-9f0fdb2af59a.jpg?v=1644060662000"
+                alt="Flutter Udemy Certification"
+              />
+            </a>
+          </div>
+          <div className="col-md-5">
+            <a
+              href="https://www.udemy.com/certificate/UC-9ab3b12d-f180-4720-822e-b3187cdfbdf5/"
+              target="_blank"
+            >
+              <img
+                className="img-fluid"
+                src="https://udemy-certificate.s3.amazonaws.com/image/UC-9ab3b12d-f180-4720-822e-b3187cdfbdf5.jpg?v=1679423553000"
+                alt="React Js Udemy Certification"
+              />
+            </a>
           </div>
         </div>
       </div>
