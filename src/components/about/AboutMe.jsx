@@ -11,8 +11,7 @@ const AboutMe = (props) => {
         <SectionHeader title="About Me" subtitle="Learn more about me" />
         <div className="d-flex justify-content-center text-center">
           <div className="p-4" style={{ color: "#6871d7", width: "900px" }}>
-            Software developer with more than one year of experience.
-            Detail-oriented and passionate about continuous learning and growth
+            I am a Software developer who is Detail-oriented and passionate about continuous learning and growth
             in software development. Seeking new opportunities to apply and
             expand my skills.
           </div>
