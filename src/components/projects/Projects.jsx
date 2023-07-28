@@ -22,19 +22,19 @@ const Projects = (props) => {
       title: "Ennachat Restaurent ",
       img: "/prj3.jpg",
       code: "https://github.com/EnnachatRedwan/ennachat-restaurent",
-      demo: "https://redwan-restaurant.ml",
+      demo: "https://ennachat-restaurant.netlify.app",
     },
     {
       title: "LocatorIP",
       img: "/prj4.jpg",
       code: "https://github.com/EnnachatRedwan/ipLocatorApp",
-      demo: "https://www.locatorip.ml",
+      demo: "https://iplocator.onrender.com",
     },
     {
       title: "EN-Shop ecom",
       img: "/prj5.jpg",
       code: "https://github.com/EnnachatRedwan/ennachat-ecommerce-website-php",
-      demo: "http://www.ennachat-shop.ml",
+      demo: "http://gloomy-fund.000webhostapp.com",
     },
   ];
 
