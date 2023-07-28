@@ -73,7 +73,7 @@
 }
 
 .card-container:hover img {
-  scale: 1.1;
+  /* scale: 1.1; */
   /* filter: grayscale(0%) blur(2px); */
 }
 
