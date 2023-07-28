@@ -74,7 +74,7 @@
 
 .card-container:hover img {
   scale: 1.1;
-  filter: grayscale(0%) blur(2px);
+  /* filter: grayscale(0%) blur(2px); */
 }
 
 .card-container:hover h1 {
