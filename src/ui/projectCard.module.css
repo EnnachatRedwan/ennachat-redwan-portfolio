@@ -72,9 +72,9 @@
   text-decoration: none;
 }
 
-/* .card-container:hover img {
-  scale: 1.1;
-  filter: grayscale(0%) blur(2px);
+.card-container:hover img {
+  /* scale: 1.1; */
+  /* filter: grayscale(0%) blur(2px); */
 }
 
 .card-container:hover h1 {
@@ -85,7 +85,7 @@
 .card-container:hover .controls {
   transform: translateY(0);
   opacity: 1;
-} */
+}
 
 .card-container .controls a:hover {
   padding: 10px 30px;
