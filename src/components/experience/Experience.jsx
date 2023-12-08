@@ -7,6 +7,20 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Experience = (props) => {
   const _experience = [
     {
+      title:
+        "JOBINTECH",
+      subtitle: "Intensive Bootcamp",
+      text: "Excellence Program: Learned full-stack development with Spring and Angular, using microservices in an enterprise style. Worked collaboratively using the Scrum methodology, preparing us for the job market.",
+      footer: "OCT 2023 – FEB 2024",
+    },
+    {
+      title:
+        "Directorate of Studies, Cooperation and Modernization - Ministry of Justice",
+      subtitle: "SOFTWARE DEVELOPER INTERNSHIP",
+      text: "Created a Cross Platform application for tracking projects, the application can runs on IOS, Android and Windows.",
+      footer: "JUL 2022 – SEP 2022",
+    },
+    {
       title: "Ministry of Justice and Liberties",
       subtitle: "SOFTWARE DEVELOPER INTERNSHIP",
       text: "Redesigned web templates used inside the ministry and created a web application for archiving documents.",
@@ -19,13 +33,7 @@ const Experience = (props) => {
     //   text: "Created, designed, and hosted websites for restaurants and coffee shops which eliminates the need for paper menus, reduced the cost of purchasing paper menus and increased convenience.",
     //   footer: "JUL 2021 -JAN 2022",
     // },
-    {
-      title:
-        "Directorate of Studies, Cooperation and Modernization - Ministry of Justice",
-      subtitle: "SOFTWARE DEVELOPER INTERNSHIP",
-      text: "Created a Cross Platform application for tracking projects, the application can runs on IOS, Android and Windows.",
-      footer: "JUL 2022 – SEP 2022",
-    },
+    
   ];
 
   return (

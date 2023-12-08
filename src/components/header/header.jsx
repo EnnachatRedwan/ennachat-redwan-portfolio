@@ -27,7 +27,7 @@ const Header = () => {
           <h2 className="lead">Download my resume</h2>
           <a
             href={Resume}
-            download="resume"
+            download="ennachat-redwan-cv.pdf"
             className="btn btn-lg my-3 text-white"
             style={{ background: "#6871d7" }}
           >

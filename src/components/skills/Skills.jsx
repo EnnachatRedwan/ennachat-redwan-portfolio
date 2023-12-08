@@ -553,11 +553,10 @@ const Skills = (props) => {
               {" "}
               Programming Languages:{" "}
             </span>{" "}
-            JavaScript / Dart / C#
+            JavaScript / Dart / Java
           </li>
           <li className="list-group-item">
-            <span className={classes["techTitle"]}>Frameworks:</span> Flutter /
-            ASP.NET ASP.NET CORE
+            <span className={classes["techTitle"]}>Frameworks:</span> Spring / Angular / Flutter /
           </li>
 
           <li className="list-group-item">

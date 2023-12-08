@@ -74,6 +74,18 @@ const Education = (props) => {
               />
             </a>
           </div>
+          <div className="col-md-5">
+            <a
+              href="https://www.udemy.com/certificate/UC-6442de7a-32c5-417e-bcbf-541b490ca1b0/"
+              target="_blank"
+            >
+              <img
+                className="img-fluid"
+                src="https://udemy-certificate.s3.amazonaws.com/image/UC-6442de7a-32c5-417e-bcbf-541b490ca1b0.jpg?v=1702032910000"
+                alt="SpringBoot Udemy Certification"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </Section>
