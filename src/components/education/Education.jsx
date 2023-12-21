@@ -86,6 +86,18 @@ const Education = (props) => {
               />
             </a>
           </div>
+          <div className="col-md-5">
+            <a
+              href="https://www.cloudskillsboost.google/public_profiles/c39e1a80-a3c6-405d-9918-3ea222a7faa9/badges/6719686?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+              target="_blank"
+            >
+              <img
+                className="img-fluid"
+                src="https://cdn.qwiklabs.com/XANPV5tcjEcvtWb28xYf8Jp4KxYUa4Zkok2iLBVo6rQ%3D"
+                alt="Building Scalable Java Microservices with Spring Boot and Spring Cloud"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </Section>
