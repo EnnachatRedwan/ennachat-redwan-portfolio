@@ -556,7 +556,7 @@ const Skills = (props) => {
             JavaScript / Dart / Java
           </li>
           <li className="list-group-item">
-            <span className={classes["techTitle"]}>Frameworks:</span> Spring / Angular / Flutter /
+            <span className={classes["techTitle"]}>Frameworks:</span> Spring / Angular / Flutter
           </li>
 
           <li className="list-group-item">
