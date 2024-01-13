@@ -52,13 +52,13 @@ const Education = (props) => {
         <div className="row justify-content-center">
         <div className="col-md-5">
             <a
-              href="https://www.cloudskillsboost.google/public_profiles/c39e1a80-a3c6-405d-9918-3ea222a7faa9/badges/6719686?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share"
+              href="https://coursera.org/share/1a83737b3ffe0e9bba79abb6e52f5c78"
               target="_blank"
             >
               <img
                 className="img-fluid"
                 src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~M5XB97T7MN38/CERTIFICATE_LANDING_PAGE~M5XB97T7MN38.jpeg"
-                alt="Building Scalable Java Microservices with Spring Boot and Spring Cloud"
+                alt="Building Scalable Java Microservices with Spring Boot and Spring Cloud certificate"
               />
             </a>
           </div>
@@ -70,7 +70,7 @@ const Education = (props) => {
               <img
                 className="img-fluid"
                 src="https://cdn.qwiklabs.com/XANPV5tcjEcvtWb28xYf8Jp4KxYUa4Zkok2iLBVo6rQ%3D"
-                alt="Building Scalable Java Microservices with Spring Boot and Spring Cloud"
+                alt="Building Scalable Java Microservices with Spring Boot and Spring Cloud badge"
               />
             </a>
           </div>
