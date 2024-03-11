@@ -24,7 +24,7 @@ const Header = () => {
               />
             </strong>
           </h1>
-          <h2 className="lead">Download my resume</h2>
+          {/* <h2 className="lead">Download my resume</h2>
           <a
             href={Resume}
             download="CV-ENNACHAT-REDWAN-JOBINTECH2023-JAVA.pdf"
@@ -32,7 +32,7 @@ const Header = () => {
             style={{ background: "#6871d7" }}
           >
             Download
-          </a>
+          </a> */}
         </div>
         <div
           className={
