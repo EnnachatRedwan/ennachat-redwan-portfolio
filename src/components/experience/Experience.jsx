@@ -7,11 +7,23 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Experience = (props) => {
   const _experience = [
     {
-      title:
-        "JOBINTECH",
-      subtitle: "Intensive Bootcamp",
-      text: "Excellence Program: Learned full-stack development with Spring and Angular, using microservices in an enterprise style. Worked collaboratively using the Scrum methodology, preparing us for the job market.",
-      footer: "OCT 2023 – FEB 2024",
+      title: "Gama Core Services",
+      subtitle: "Analyst Developer",
+      text: "Creating scalable, efficient systems that align with business objectives and ensure clean, maintainable code.",
+      footer: "May 2024 - Present",
+    },
+    // {
+    //   title:
+    //     "JOBINTECH",
+    //   subtitle: "Intensive Bootcamp",
+    //   text: "Excellence Program: Learned full-stack development with Spring and Angular, using microservices in an enterprise style. Worked collaboratively using the Scrum methodology, preparing us for the job market.",
+    //   footer: "OCT 2023 – FEB 2024",
+    // },
+    {
+      title: "Université Internationale de Rabat",
+      subtitle: "Full-stack Java Spring/Angular Job-Ready Bootcamp",
+      text: "Designed the stock management microservice for the university's eCommerce platform.",
+      footer: "Oct 2023 - Mar 2024",
     },
     {
       title:
@@ -26,18 +38,8 @@ const Experience = (props) => {
       text: "Redesigned web templates used inside the ministry and created a web application for archiving documents.",
       footer: "MAR 2021 - APR 2021",
     },
-    {
-      title: "Université Internationale de Rabat",
-      subtitle: "Full-stack Java Spring/Angular Job-Ready Bootcamp",
-      text: "Designed the stock management microservice for the university's eCommerce platform.",
-      footer: "Oct 2023 - Mar 2024",
-    },
-    {
-      title: "Gama Core Services",
-      subtitle: "Analyst Developer",
-      text: "Creating scalable, efficient systems that align with business objectives and ensure clean, maintainable code.",
-      footer: "May 2024 - Present",
-    },
+    
+  
     // {
     //   title:
     //     "LOCAL FREELANCING",
