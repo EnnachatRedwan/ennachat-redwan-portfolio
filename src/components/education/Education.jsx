@@ -7,30 +7,35 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Education = (props) => {
   const educationCards = [
     {
+      id:1,
       title: "High School Diploma",
       subtitle: 'El Mehdi El Mandjra',
       text: "Physics and chemistry option",
       footer: "Obtained in 2019",
     },
     {
+      id:2,
       title: "Associate's Degree",
       subtitle: '',
       text: "software development option",
       footer: "Obtained in 2021",
     },
     {
+      id:3,
       title: "Bachelor's Degree",
       subtitle: 'Chouaib Doukkali University',
       text: "Database Administrator option",
       footer: "Obtained in 2022",
     },
     {
+      id:4,
       title: "Bootcamp",
       subtitle: 'Université Internationale de Rabat',
       text: "Full-stack Java Spring/Angular",
       footer: "Obtained in 2024",
     },
     {
+      id:5,
       title: "Engineer's Degree",
       subtitle: "Diplome d'Ingénieur d'État",
       text: "Software Systems Engineerin",
@@ -50,9 +55,9 @@ const Education = (props) => {
           subtitle="My Education"
         />
         <div className="row py-5 justify-content-around g-4">
-          {educationCards.map((diploma, i) => (
+          {educationCards.map((diploma) => (
             <EducationCard
-              key={i}
+              key={diploma.id}
               title={diploma.title}
               subtitle={diploma.subtitle}
               text={diploma.text}
