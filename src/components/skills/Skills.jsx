@@ -543,7 +543,7 @@ const Skills = (props) => {
           </div>
         </div>
 
-        <ul
+        {/* <ul
           className={
             "list-group list-group-flush text-center my-5 " + classes["list"]
           }
@@ -553,10 +553,10 @@ const Skills = (props) => {
               {" "}
               Programming Languages:{" "}
             </span>{" "}
-            JavaScript / Dart / Java
+            JavaScript / Dart / Java / Php
           </li>
           <li className="list-group-item">
-            <span className={classes["techTitle"]}>Frameworks:</span> Spring / Angular / Flutter
+            <span className={classes["techTitle"]}>Frameworks:</span> Spring / Angular / Flutter / Grails / Vue
           </li>
 
           <li className="list-group-item">
@@ -576,7 +576,7 @@ const Skills = (props) => {
             <span className={classes["techTitle"]}>Databases:</span> MySQL / SQL
             Server / Neo4J
           </li>
-        </ul>
+        </ul> */}
       </div>
     </Section>
   );

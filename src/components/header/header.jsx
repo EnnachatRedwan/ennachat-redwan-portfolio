@@ -15,7 +15,9 @@ const Header = () => {
                 sequence={[
                   "Redwan ENNACHAT", // Types 'One'
                   2000, // Waits 1s
-                  "a Software Developer", // Deletes 'One' and types 'Two'
+                  "a Software Engineer", // Deletes 'One' and types 'Two'
+                  2000, // Waits 2s
+                  "Ingenieur d'etat", // Deletes 'One' and types 'Two'
                   2000, // Waits 2s
                 ]}
                 wrapper="span"

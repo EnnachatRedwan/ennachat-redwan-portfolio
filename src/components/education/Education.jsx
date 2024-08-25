@@ -8,21 +8,33 @@ const Education = (props) => {
   const educationCards = [
     {
       title: "High School Diploma",
-      subtitle: '"Baccalauréat" in Morocco',
+      subtitle: 'El Mehdi El Mandjra',
       text: "Physics and chemistry option",
       footer: "Obtained in 2019",
     },
     {
       title: "Associate's Degree",
-      subtitle: '"Diplôme de technicien spécialisé" in Morocco',
+      subtitle: '',
       text: "software development option",
       footer: "Obtained in 2021",
     },
     {
       title: "Bachelor's Degree",
-      subtitle: ' "Licence professionnelle" in Morocco',
+      subtitle: 'Chouaib Doukkali University',
       text: "Database Administrator option",
       footer: "Obtained in 2022",
+    },
+    {
+      title: "Bootcamp",
+      subtitle: 'Université Internationale de Rabat',
+      text: "Full-stack Java Spring/Angular",
+      footer: "Obtained in 2024",
+    },
+    {
+      title: "Engineer's Degree",
+      subtitle: "Diplome d'Ingénieur d'État",
+      text: "Software Systems Engineerin",
+      footer: "Obtained in 2026",
     },
   ];
   return (
