@@ -33,7 +33,7 @@ const Education = (props) => {
     {
       title: "Engineer's Degree",
       subtitle: "Diplome d'Ingénieur d'État",
-      text: "Software Systems Engineerin",
+      text: "Software Systems Engineering",
       footer: "Obtained in 2026",
     },
   ];
